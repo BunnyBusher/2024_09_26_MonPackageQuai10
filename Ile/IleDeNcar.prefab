@@ -1060,20 +1060,104 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      propertyPath: m_Name
+      value: Pilon
+      objectReference: {fileID: 0}
+    - target: {fileID: -3756473180518285571, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      propertyPath: m_Name
+      value: Ile2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1025663018108745142, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      propertyPath: m_Name
+      value: Silo
+      objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      propertyPath: m_Name
+      value: ToitPilon
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
       propertyPath: m_Name
       value: Iledebateau
       objectReference: {fileID: 0}
+    - target: {fileID: 2891746525080496957, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      propertyPath: m_Name
+      value: FenetreSilo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233112405309087440, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      propertyPath: m_Name
+      value: Ile1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -3756473180518285571, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7664701111108880021}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1127973388405180749}
   m_SourcePrefab: {fileID: 100100000, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+--- !u!1 &3585298531669255840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+  m_PrefabInstance: {fileID: 4201270801294562500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1127973388405180749
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3585298531669255840}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
 --- !u!4 &4451615772743004975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
   m_PrefabInstance: {fileID: 4201270801294562500}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8184089471362198073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3756473180518285571, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
+  m_PrefabInstance: {fileID: 4201270801294562500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &7664701111108880021
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8184089471362198073}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8314571269056883277, guid: 386a6b810372f3249b57c68917c90f6b, type: 3}
 --- !u!1001 &4249457452892168243
 PrefabInstance:
   m_ObjectHideFlags: 0
